@@ -34,9 +34,9 @@ multiplication(number1: 5,number2: 7)
 
 // MARK:  الكائن  object مبنية علي هذي struct  قم بكتابة كود ال
 struct  Student {
-    var name = "Omar"
-    var age =  25
-    var hobbies = ["Coding", "drawing"]
+    var name : String
+    var age : Int
+    var hobbies : [String]
     
 }
 
